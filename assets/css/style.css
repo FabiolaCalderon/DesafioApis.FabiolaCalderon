@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(114, 111, 111);
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+
+    }
+
+h1,h2,h3,h4{
+    color: white;
+}
+.contenedor{
+    margin-top: 25px;
+    background-color: rgb(160, 160, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px solid black;
+}
+
+.boton{
+    padding: 10px;
+    width: 50%;
+    color: white;
+    background-color: rgb(57, 171, 220);
+    font-size: 16px;
+    margin-top: 8px;
+    
+}
+
+
+input{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+}
+select{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: black;
+    
+}
+
